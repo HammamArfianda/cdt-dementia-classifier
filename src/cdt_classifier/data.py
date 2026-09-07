@@ -67,7 +67,7 @@ def split_dataframe(
 def _load_image(filepath: tf.Tensor, label: tf.Tensor, image_size: tuple[int, int]) -> tuple[tf.Tensor, tf.Tensor]:
     image = tf.io.read_file(filepath)
     image = tf.image.decode_image(image, channels=3, expand_animations=False)
-    image = tf.image.resize(image, image_size)
+    image = tf.image.resize_with_pad(image, image_size[0], image_size[1])
     image = tf.cast(image, tf.float32)
     return image, label
 

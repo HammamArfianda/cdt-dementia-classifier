@@ -36,6 +36,8 @@ D:/Projects/CDT Project/data/Dataset ISPO/
 
 The training code maps `Dataset Tidak Ada Demensia` to `normal` and maps the three dementia folders to `impaired`.
 
+Images are resized to `224x224` with padding so vertical or horizontal drawings keep their original proportions.
+
 ## Setup
 
 ```powershell

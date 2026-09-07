@@ -15,6 +15,7 @@ data/raw/
 data/Dataset ISPO/
 data/processed/
 local_tests/
+testing/
 models/
 reports/figures/
 reports/*.csv
