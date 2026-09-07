@@ -26,14 +26,14 @@ models/               Trained model files
 Use one folder per class:
 
 ```text
-D:/PrivateDatasets/cdt/
-  no_dementia/
-  light/
-  medium/
-  heavy/
+D:/Projects/CDT Project/data/Dataset ISPO/
+  Dataset Tidak Ada Demensia/
+  Dataset Demensia Ringan/
+  Dataset Demensia Sedang/
+  Dataset Demensia Berat/
 ```
 
-The training code maps `no_dementia` to `normal` and maps `light`, `medium`, and `heavy` to `impaired`.
+The training code maps `Dataset Tidak Ada Demensia` to `normal` and maps the three dementia folders to `impaired`.
 
 ## Setup
 

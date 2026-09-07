@@ -1,5 +1,5 @@
 filepath,original_label,binary_label
-D:/PrivateDatasets/cdt/no_dementia/example_001.jpg,no_dementia,normal
-D:/PrivateDatasets/cdt/light/example_002.jpg,light,impaired
-D:/PrivateDatasets/cdt/medium/example_003.jpg,medium,impaired
-D:/PrivateDatasets/cdt/heavy/example_004.jpg,heavy,impaired
+D:/Projects/CDT Project/data/Dataset ISPO/Dataset Tidak Ada Demensia/example_001.jpg,Dataset Tidak Ada Demensia,normal
+D:/Projects/CDT Project/data/Dataset ISPO/Dataset Demensia Ringan/example_002.jpg,Dataset Demensia Ringan,impaired
+D:/Projects/CDT Project/data/Dataset ISPO/Dataset Demensia Sedang/example_003.jpg,Dataset Demensia Sedang,impaired
+D:/Projects/CDT Project/data/Dataset ISPO/Dataset Demensia Berat/example_004.jpg,Dataset Demensia Berat,impaired

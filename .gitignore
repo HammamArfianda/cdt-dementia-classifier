@@ -12,9 +12,11 @@ venv/
 
 # Private data and generated artifacts
 data/raw/
+data/Dataset ISPO/
 data/processed/
 models/
 reports/figures/
+reports/*.csv
 *.keras
 *.h5
 *.tflite
