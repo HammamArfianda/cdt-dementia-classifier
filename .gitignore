@@ -14,6 +14,7 @@ venv/
 data/raw/
 data/Dataset ISPO/
 data/processed/
+local_tests/
 models/
 reports/figures/
 reports/*.csv

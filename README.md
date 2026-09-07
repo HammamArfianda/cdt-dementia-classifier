@@ -59,6 +59,24 @@ python -m src.cdt_classifier.train --config configs/config.yaml
 python -m src.cdt_classifier.evaluate --config configs/config.yaml
 ```
 
+## Predict One Image
+
+Save a test drawing outside the tracked project files, or put it under `local_tests/`, which is ignored by Git.
+
+```powershell
+python -m src.cdt_classifier.predict "local_tests/my_clock.jpg" --config configs/config.yaml
+```
+
+## Demo App
+
+After training a model locally, launch the upload demo:
+
+```powershell
+streamlit run app/streamlit_app.py
+```
+
+Then open the local URL that Streamlit prints and upload a clock drawing image.
+
 ## Medical Disclaimer
 
 This project is for learning and research demonstration only. It is not a medical device and must not be used to diagnose dementia.
