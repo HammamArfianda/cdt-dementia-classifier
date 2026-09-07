@@ -1,6 +1,7 @@
 # CDT Dementia Classifier
 
 TensorFlow computer vision project for classifying Clock Drawing Test (CDT) images.
+Clock Drawing Test (CDT) image classification model using TensorFlow/Keras.
 
 This project starts with binary classification:
 
