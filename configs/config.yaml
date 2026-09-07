@@ -1,0 +1,13 @@
+dataset_dir: "D:/PrivateDatasets/cdt"
+image_size: [224, 224]
+batch_size: 16
+epochs: 15
+learning_rate: 0.0001
+validation_split: 0.2
+seed: 42
+model_output_path: "models/cdt_binary_classifier.keras"
+class_mapping:
+  no_dementia: normal
+  light: impaired
+  medium: impaired
+  heavy: impaired
